@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  background-color: #E3E2DF;
+}
+
+/* Font Styling */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+/*font-family: 'Akaya Telivigala', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@500&display=swap');
+/*font-family: 'Dancing Script', cursive;*/
+
+/********************************************************************************************************************/
+
+/*Styling all the content of body of HTML*/
+
+.id{
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 2rem;
+}
+
+h1{
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #9A1750;
+  
+}
+
+h2{
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 2rem;
+}
+
+.img {
+
+  width : 500px;
+  height: 500px;
+}
+
+p {
+
+  font-family:'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
+
+.photocredit {
+
+  font-family:sans-serif;
+  font-size:20px;
+}
+
+.nav > a * {
+  text-decoration:none;
+  
+}
+
+nav{
+  background-color: rgb(159, 154, 154);
+  opacity: 0.8;
+  border-radius: 5%;
+  max-width: 100%;
+}
+
+li * {
+  padding:2rem;
+  color:#9A1750;
+  margin:0.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+.button{
+  border: 2px solid black;
+  padding:0.5rem;
+  border-radius: 15px;
+  background-color: rgb(241, 237, 229);
+}
+
+/*Creating Nav responsive*/
+
+@media screen and (max-width: 600px){ 
+  .logo{
+    text-align: center;
+  }  
+
+  h1{
+    text-align: center;
+    justify-content: space-between;
+  }
+  nav {
+    align-self: left; 
+    display: flex;
+    justify-content: space-between;
+    }
+  }
+
+
+ nav * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    margin:auto;
+
+  }
+ /** making nav hover and active **/
+
+nav>ul>* a:hover{
+
+    background-color: #BAB2B5;
+
+}
+
+nav>ul> * a:active {
+background-color: #123c69;
+}
+
+
+/*************** Login Styling ****************/
+
+.container{
+  padding: 2rem;
+  margin:auto;
+  height: 20vh;
+  color:#9A1750;
+  font-size: 20px;
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(235, 231, 231);
+}
+
+.cancelbtn{
+  box-sizing: content-box;
+  border: solid black ;
+  border-radius: 25%;
+  box-shadow: black;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-family:Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/****** Styling for Register Form *******/
+.newsheader{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Fredoka One', cursive;
+  padding:5rem;
+  border:none;
+}
+
+
+.checkbox{
+
+  font-size: 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.news *{
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
